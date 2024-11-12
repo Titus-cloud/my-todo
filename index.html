@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+
+    <title>Frontend Mentor | Todo app</title>
+
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div>
+        <img src="./images/bg-desktop-dark.jpg" alt="background" />
+      </div>
+      
+      <div class="all_in">
+        <div class="heading">
+          <h2>Todo</h2>
+          <button id="theme-toggle" aria-label="Toggle theme">
+          <span class="icon">🌙</span>
+        </button>
+        </div>
+
+        <div class="the_box">
+          <div class="title">
+            <input id="input-box" type="text" placeholder="Create a new todo">
+            <button onclick="addTask()">Add</button>
+          </div>
+
+          
+            <ul id="items">
+            <!-- <li>Task 1</li>
+            <li>Task 2</li>
+            <li>Task 3</li> -->
+          </ul>
+       
+       
+
+        <div class="footer">
+          <div>
+            <p>items left</p>
+          </div>
+
+          <div class="longs">
+            <p>All</p>
+            <p>Active</p>
+            <p>Completed</p>
+          </div>
+
+          <div>
+            <p>Clear Completed</p>
+          </div>
+        </div>
+      </div>
+      </div>
+    </div>
+    <script src="./script.js"></script>
+  </body>
+</html>
